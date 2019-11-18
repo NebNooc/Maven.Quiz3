@@ -4,8 +4,10 @@ package rocks.zipcode.io.quiz3.arrays;
  * @author leon on 09/12/2018.
  */
 public class TicTacToe {
+    private String[][] board;
 
     public TicTacToe(String[][] board) {
+        this.board = board;
     }
 
     public TicTacToe() {

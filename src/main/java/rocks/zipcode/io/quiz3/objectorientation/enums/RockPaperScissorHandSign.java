@@ -4,10 +4,16 @@ package rocks.zipcode.io.quiz3.objectorientation.enums;
  * @author leon on 09/12/2018.
  */
 public enum RockPaperScissorHandSign {
-    ADD_ENUMERATIONS_HERE;
+    ROCK("ROCK"),
+    PAPER("PAPER"),
+    SCISSOR("SCISSOR");
 
-    public RockPaperScissorHandSign getWinner() {
-        return null;
+    private String sign;
+    RockPaperScissorHandSign(String sign) {
+        this.sign = sign;
+    }
+
+    public RockPaperScissorHandSign getWinner() { return null;
     }
 
     public RockPaperScissorHandSign getLoser() {
